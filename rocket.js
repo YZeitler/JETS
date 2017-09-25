@@ -1,5 +1,6 @@
-var rocket = function(){
-    console.log("BOOOM")
+var Rocket = function(color, size) {
+    this.color = color;
+    this.size = size;
 }
 
-module.exports = rocket;
+module.exports = Rocket;
